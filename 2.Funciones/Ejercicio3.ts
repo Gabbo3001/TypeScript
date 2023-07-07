@@ -1,4 +1,4 @@
-const esPar = (numero: number): boolean => {
+function esPar(numero:number): boolean {
     return numero % 2 === 0;
   };
-console.log(esPar(9));
+console.log(esPar(78));
